@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.zhubao</groupId>
+  <artifactId>spring-cloud-study</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>spring-cloud-study-samples</name>
+  <description>Spring Cloud Study Samples</description>
+  <modules>
+  	<module>Eureka-Client</module>
+  	<module>Eureka-Config-Client-App1</module>
+  	<module>Eureka-Config-Client-App2</module>
+  	<module>Eureka-Config-Server</module>
+  	<module>Eureka-Feign-Consumer</module>
+  	<module>Eureka-Hystrix-Dashboard</module>
+  	<module>Eureka-Ribbon-Consumer</module>
+  	<module>Eureka-Server</module>
+  	<module>Eureka-Zuul-Gateway</module>
+  </modules>
+</project>

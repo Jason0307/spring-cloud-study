@@ -1,0 +1,13 @@
+package org.zhubao.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class AppDTO {
+
+    private String name;
+}
